@@ -1,4 +1,5 @@
-# main-websitee
+# Official Website IIIT Kalyani
 
--Main website of IIIT Kalyani
--Static, PHP based
+## Description
+- [x] Main website of IIIT Kalyani
+- [x] Static, PHP based
