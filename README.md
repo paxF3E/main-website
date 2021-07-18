@@ -1,3 +1,4 @@
 # main-websitee
-Main website of IIIT Kalyani
-static, PHP based
+
+-Main website of IIIT Kalyani
+-Static, PHP based
