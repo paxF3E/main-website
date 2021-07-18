@@ -1,0 +1,8 @@
+.rem-item{
+    display: flex;
+    background-image: linear-gradient(to bottom left, rgb(0, 28, 80), rgb(38, 57, 219));
+    justify-content: center;
+  }
+  .rem-item li{
+    list-style: none;
+  }
