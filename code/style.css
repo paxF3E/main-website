@@ -1,0 +1,103 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+img {
+  margin-left: 1rem;
+  width: 5em;
+}
+nav{
+
+  background-image: linear-gradient(to top right, blue, rgb(0, 0, 70));
+}
+#primary-nav {
+  display: flex;
+  height: 18vh;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+#primary-nav li a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: white;
+  padding: 0.4em;
+}
+.items
+{
+  position: relative;
+  display: inline-block;
+  /* z-index: 2; */
+}
+.rem-item {
+  display: flex;
+  justify-content:space-around;
+  /* background-image: linear-gradient(to left,rgb(0, 28, 80),rgb(38, 57, 219)); */
+  flex-wrap: wrap;
+  height: 10vh;
+  /* overflow: scroll; */
+  /* align-items: center; */
+}
+.rem-item li{
+  justify-self:center;
+  list-style: none;
+  width: 14.2%;
+  text-align: center;
+  padding-top:4vh;
+}
+.rem-item li a{
+  font-size:1.5rem;
+  text-decoration: none;
+  font-weight: 520;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: white;
+}
+.rem-item .items:hover{
+  background-color:blue;
+  color: rgb(197, 18, 18) !important;
+} 
+.droplist{
+  display: none;
+  position:absolute;
+  /* background-image: linear-gradient(to top right,rgb(13, 35, 77),rgb(62, 78, 230)); */
+  width:100%;
+  z-index: -1;
+  height: 5em;
+  /* padding-top: 20%; */
+  /* padding-left: 0%; */
+  /* padding-right: 0%; */
+}
+.droplist li{
+  /* text-align: center; */
+  /* margin: 0%; */
+  /* padding: 0%; */
+  height: 5%;
+  /* align-self: center; */
+}
+.droplist li a{
+  /* width:10%; */
+  font-size: 100%;
+  /* text-align: center; */
+  /* height:1vh; */
+}
+.rem-item .items:hover .droplist{
+  display:flex;
+  align-items:center;
+  height:auto;
+  background-color:blue;
+  flex-direction: column;
+  /* height:auto; */
+  /* transition:; */
+  /* width: 100%; */
+}
+.rem-item .items:hover .droplist li{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  /* border-top: 5px solid black; */
+  /* height:auto; */
+}
