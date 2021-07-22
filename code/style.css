@@ -19,7 +19,7 @@ img {
   font-size: 2vh;
 }
 nav {
-  font-size: 1.5vw;
+  font-size:1.5vw;
   text-decoration: none;
   font-weight: 540;
   width:100%;
@@ -45,6 +45,9 @@ nav {
   justify-content: flex-end;
   list-style: none;
 }
+/* #primary-nav ul li {
+  width:700%;
+} */
 #primary-nav li a {
   text-decoration: none;
   color: white;
