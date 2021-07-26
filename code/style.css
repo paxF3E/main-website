@@ -14,9 +14,18 @@ img {
 }
 .moto {
   color: #fff;
+  margin-bottom: 1vh;
   /* text-align: center; */
   /* width:200%; */
   font-size: 2vh;
+}
+.moto img{
+  width: 6vw;
+  height: auto;
+}
+.hindi_quote{
+  width: 15vw;
+  font-size: 110%;
 }
 nav {
   font-size:1.5vw;
@@ -26,23 +35,50 @@ nav {
   background-color: rgb(0, 90, 181);
   /* background-image: linear-gradient(to top right, rgb(119, 119, 255), rgb(53, 53, 255)); */
 }
+
+.mid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.iiit{
+  font-size: 150%;
+}
+.mid hr{
+  height: 0.2vw;
+  background:white;
+}
+
 #primary-nav {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* align-content: center; */
   /* margin-top: 0% !important; */
   /* padding: 0%; */
-  height: 24vh;
+  /* height: 24vh; */
   width: 100%;
   /* align-items: center; */
   /* justify-content: flex-end; */
   /* list-style: none; */
   /* padding-right: 00.5em; */
 }
+
+.primary-nav-items{
+  display: flex;
+  align-items: center;
+}
+
 #primary-nav ul {
   display: flex;
-  height: 20vh;
-  width: 45vw;
-  align-items: center;
-  justify-content: flex-end;
+  /* align-content: center; */
+  /* height: 20vh; */
+  /* width: 45vw; */
+  /* align-items: center; */
+  /* justify-content: flex-end; */
   list-style: none;
 }
 /* #primary-nav ul li {
@@ -51,8 +87,14 @@ nav {
 #primary-nav li a {
   text-decoration: none;
   color: white;
-  padding: 0.3vh 0.3vw 0.3vh 0.3vw;
+  padding-right: 1vw;
+  /* padding: 0px 1vw; */
 }
+
+#primary-nav li a:hover{
+  text-decoration: underline;
+}
+
 .items {
   position: relative;
   display: inline-block;
@@ -223,11 +265,14 @@ footer {
 }
 
 .footer-list-header {
+  font-family: 'Abhaya Libre', serif;
   text-align: center;
-  margin-bottom: 1vw;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
   color: #fff;
   text-decoration: underline;
-  font-size: x-large;
+  text-decoration-thickness: 0.1rem;
+  font-size: xx-large;
 }
 .footer {
   display: flex;
@@ -235,6 +280,8 @@ footer {
   flex-wrap: wrap;
   text-align: center;
   margin-left: 6vw;
+  font-family: 'Abhaya Libre', serif;
+
 }
 
 .footer-list-top li,
@@ -253,3 +300,13 @@ footer {
   color: white;
   text-align: center;
 }
+
+.copyright{
+  font-family: 'Merriweather', serif;
+  padding-bottom: 0.8vw;
+}
+
+/* .cp_right{
+  display: flex;
+  justify-content:start;
+} */
